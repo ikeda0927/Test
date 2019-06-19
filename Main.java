@@ -8,21 +8,30 @@ public class Main {
     private static int counter2 =0;
     private static int COUNTER2 =20;
     private static boolean counter2Judge=true;
+    private static int counter3 =0;
+    private static int COUNTER3 =30;
+    private static boolean counter3Judge=true;
 
     public static void main(String[] args) {
 	// write your code here
-        while(counter1Judge || counter2Judge){
+        while(counter1Judge || counter2Judge || counter3Judge){
             if(counter1<COUNTER1){
                 counter1++;
-            }else{
+            }else if(counter1Judge){
                 System.out.println("counter1 Max");
                 counter1Judge = false;
             }
-            if(counter2<COUNTER1){
+            if(counter2<COUNTER2){
                 counter2++;
-            }else{
+            }else if(counter2Judge){
                 System.out.println("counter2 Max");
                 counter2Judge = false;
+            }
+            if(counter3<COUNTER3){
+                counter3++;
+            }else if(counter3Judge){
+                System.out.println("counter3 Max");
+                counter3Judge = false;
             }
         }
     }
