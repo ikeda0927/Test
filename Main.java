@@ -61,6 +61,6 @@ public class Main {
                 counter6Judge = false;
             }
         }
-	    System.out.println("abc");
+	    System.out.println("efg");
     }
 }
