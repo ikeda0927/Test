@@ -17,7 +17,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        while(counter1Judge || counter2Judge || counter3Judge){
+        while(counter1Judge || counter2Judge || counter3Judge||counter4Judge){
             if(counter1<COUNTER1){
                 counter1++;
             }else if(counter1Judge){
@@ -35,6 +35,12 @@ public class Main {
             }else if(counter3Judge){
                 System.out.println("counter3 Max");
                 counter3Judge = false;
+            }
+            if(counter4<COUNTER4){
+                counter4++;
+            }else if(counter4Judge){
+                System.out.println("counter4 Max");
+                counter4Judge = false;
             }
         }
     }
