@@ -11,6 +11,9 @@ public class Main {
     private static int counter3 =0;
     private static int COUNTER3 =30;
     private static boolean counter3Judge=true;
+    private static int counter4 =0;
+    private static int COUNTER4 =40;
+    private static boolean counter4Judge=true;
 
     public static void main(String[] args) {
 	// write your code here
