@@ -17,10 +17,13 @@ public class Main {
     private static int counter5 =0;
     private static int COUNTER5 =50;
     private static boolean counter5Judge=true;
+    private static int counter6 =0;
+    private static int COUNTER6 =60;
+    private static boolean counter6Judge=true;
 
     public static void main(String[] args) {
 	// write your code here
-        while(counter1Judge || counter2Judge || counter3Judge||counter4Judge){
+        while(counter1Judge || counter2Judge || counter3Judge||counter4Judge||counter6Judge){
             if(counter1<COUNTER1){
                 counter1++;
             }else if(counter1Judge){
@@ -44,6 +47,12 @@ public class Main {
             }else if(counter4Judge){
                 System.out.println("counter4 Max");
                 counter4Judge = false;
+            }
+            if(counter6<COUNTER6){
+                counter6++;
+            }else if(counter6Judge){
+                System.out.println("counter6 Max");
+                counter6Judge = false;
             }
         }
 	    System.out.println("abc");
