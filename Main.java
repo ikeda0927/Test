@@ -20,7 +20,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        while(counter1Judge || counter2Judge || counter3Judge||counter4Judge){
+        while(counter1Judge || counter2Judge || counter3Judge||counter4Judge||counter5Judge){
             if(counter1<COUNTER1){
                 counter1++;
             }else if(counter1Judge){
@@ -45,6 +45,13 @@ public class Main {
                 System.out.println("counter4 Max");
                 counter4Judge = false;
             }
+            if(counter5<COUNTER5){
+                counter5++;
+            }else if(counter5Judge){
+                System.out.println("counter5 Max");
+                counter5Judge = false;
+            }
+
         }
 	    System.out.println("abc");
     }
